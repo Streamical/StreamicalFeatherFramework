@@ -1,0 +1,63 @@
+@import "variables";
+
+.sfi {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+}
+
+// Streamical Feather User Icons
+
+.sfi-user {
+  background-image: url("#{$icons}/user.svg");
+}
+
+.sfi-user-check {
+  background-image: url("#{$icons}/user-check.svg");
+}
+
+.sfi-user-minus {
+  background-image: url("#{$icons}/user-minus.svg");
+}
+
+.sfi-user-plus {
+  background-image: url("#{$icons}/user-plus.svg");
+}
+
+.sfi-users {
+  background-image: url("#{$icons}/users.svg");
+}
+
+.sfi-user-x {
+  background-image: url("#{$icons}/user-x.svg");
+}
+
+// Streamical Feather Login / Logout
+.sfi-log-in {
+  background-image: url("#{$icons}/log-in.svg");
+}
+
+// Streamical Feather Login / Logout
+.sfi-log-out {
+  background-image: url("#{$icons}/log-out.svg");
+}
+
+// Streamical Feather Miscellaneous
+
+.sfi-home {
+  background-image: url("#{$icons}/home.svg");
+}
+
+.sfi-menu {
+  background-image: url("#{$icons}/menu.svg");
+}
+
+.sfi-map {
+  background-image: url("#{$icons}/map.svg");
+}
+
+// Streamical Feather Helpers
+
+.sfi-inverted {
+  filter: invert(100%);
+}

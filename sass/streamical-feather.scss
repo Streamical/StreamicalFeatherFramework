@@ -1,12 +1,18 @@
 @import "variables";
 
+
+/**
+  * Streamical Feather Icons Base class
+ */
 .sfi {
-  height: 24px;
-  width: 24px;
+  height: $height;
+  width: $width;
   display: inline-block;
 }
 
-// Streamical Feather User Icons
+/*
+ * Streamical Feather User Icons
+ */
 
 .sfi-user {
   background-image: url("#{$icons}/user.svg");
@@ -32,17 +38,23 @@
   background-image: url("#{$icons}/user-x.svg");
 }
 
-// Streamical Feather Login / Logout
+/*
+ * Streamical Feather Login / Logout
+ */
 .sfi-log-in {
   background-image: url("#{$icons}/log-in.svg");
 }
 
-// Streamical Feather Login / Logout
+/*
+ * Streamical Feather Login / Logout
+ */
 .sfi-log-out {
   background-image: url("#{$icons}/log-out.svg");
 }
 
-// Streamical Feather Miscellaneous
+/*
+ * Streamical Feather Miscellaneous
+ */
 
 .sfi-home {
   background-image: url("#{$icons}/home.svg");
@@ -55,6 +67,47 @@
 .sfi-map {
   background-image: url("#{$icons}/map.svg");
 }
+
+/*
+ * Streamical Feather Chevrons
+ */
+
+.sfi-chevron-down {
+  background-image: url("#{$icons}/chevron-down.svg");
+}
+
+.sfi-chevron-left {
+  background-image: url("#{$icons}/chevron-left.svg");
+}
+
+.sfi-chevron-right {
+  background-image: url("#{$icons}/chevron-right.svg");
+}
+
+.sfi-chevron-up {
+  background-image: url("#{$icons}/chevron-up.svg");
+}
+
+.sfi-chevrons-down {
+  background-image: url("#{$icons}/chevrons-down.svg");
+}
+
+.sfi-chevrons-left {
+  background-image: url("#{$icons}/chevrons-left.svg");
+}
+
+.sfi-chevrons-right {
+  background-image: url("#{$icons}/chevrons-right.svg");
+}
+
+.sfi-chevrons-up {
+  background-image: url("#{$icons}/chevrons-up.svg");
+}
+
+/*
+ * Streamical Feather Social Icons
+ */
+@import "social_icons";
 
 // Streamical Feather Helpers
 
